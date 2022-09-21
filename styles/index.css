@@ -1,0 +1,73 @@
+body {
+    justify-content: center;
+    display: flex;
+    flex-direction: column;
+    background: rgb(72,6,105);
+    background: linear-gradient(90deg, rgba(72,6,105,1) 15%, rgba(137,58,153,1) 56%, rgba(191,21,21,1) 100%);
+}
+.info {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    flex-wrap: wrap;
+    margin: 50px;
+}
+h1 {
+    font-family:'Bad Script';
+    font-weight: 400;
+    font-size: 40px;
+    line-height: 40px;
+    text-align: center;
+    letter-spacing: 0.02em; 
+    margin: 20px;  
+}
+p {
+    font-family:'Bad Script';
+    font-weight: 400;
+    font-size: 25px;
+    line-height: 24px;
+    text-align: center;
+    letter-spacing: 0.02em;
+    margin: 20px;
+}
+.interactive {
+    flex-wrap: wrap;
+    flex-direction: row;
+}
+.yes {
+    flex-wrap: wrap;
+}
+.no {
+    flex-wrap: wrap;
+}
+svg {
+    margin: 40px;
+}
+button {
+    font-family:'Bad Script';
+    font-weight: 400;
+    font-size: 35px;
+    line-height: 35px;
+    text-align: center;
+    letter-spacing: 0.02em;
+    color: black;
+    background-color: aquamarine;
+    width: 120px;
+    height: 80px;
+    border-radius: 30px;
+    border-color: black;
+    margin: 20px;
+    align-self: flex-end;
+}
+.btn-1:hover {
+    background: rgb(248,248,251);
+    background: radial-gradient(circle, rgba(248,248,251,1) 19%, rgba(170,179,226,1) 38%, rgba(252,70,107,1) 100%);
+    transition: all 0.9s ease-in-out;
+    color: blue;
+}
+.btn-2:hover {
+    transition: all 0.9s ease-in-out;
+    background: rgb(109,109,112);
+    background: linear-gradient(90deg, rgba(109,109,112,1) 15%, rgba(0,2,9,1) 56%, rgba(0,0,0,1) 100%);
+    color: white;
+}
