@@ -11,34 +11,37 @@ body {
     flex-direction: column;
     flex-wrap: wrap;
     margin: 50px;
+    border-bottom: 1px solid white;
 }
 h1 {
     font-family:'Bad Script';
-    font-weight: 400;
+    font-weight: 600;
     font-size: 40px;
     line-height: 40px;
     text-align: center;
     letter-spacing: 0.02em; 
     margin: 20px;  
+    color: azure;
 }
 p {
     font-family:'Bad Script';
-    font-weight: 400;
+    font-weight: 500;
     font-size: 25px;
     line-height: 24px;
     text-align: center;
     letter-spacing: 0.02em;
     margin: 20px;
+    color: azure;
 }
 .interactive {
-    flex-wrap: wrap;
-    flex-direction: row;
+    display: flex;
+    justify-content: center;
 }
 .yes {
-    flex-wrap: wrap;
+    
 }
 .no {
-    flex-wrap: wrap;
+    
 }
 svg {
     margin: 40px;
@@ -70,4 +73,27 @@ button {
     background: rgb(109,109,112);
     background: linear-gradient(90deg, rgba(109,109,112,1) 15%, rgba(0,2,9,1) 56%, rgba(0,0,0,1) 100%);
     color: white;
+}
+img {
+    height: 200px;
+    width: 90px;
+    align-self: center;
+    animation: imgZoom 2s ease infinite;
+    animation-direction: reverse;
+    animation-fill-mode: none;
+}
+@keyframes imgZoom {
+    form {transform: scale(1) rotate(0deg);}
+    to {transform: scale(1.1) rotate(15deg);}
+}
+.good-bye {
+    border-top: 1px solid white;
+    font-family:'Bad Script';
+    font-weight: 500;
+    font-size: 25px;
+    line-height: 50px;
+    text-align: center;
+    letter-spacing: 0.02em;
+    margin: 50px;
+    color: azure;
 }
